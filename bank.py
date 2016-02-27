@@ -63,7 +63,7 @@ class Account:
     def db_init(self):
 
         try:
-            self.conn = pymysql.connect(host='localhost', port=3306, user='root', passwd='70470953', db='bank')
+            self.conn = pymysql.connect(host='localhost', port=3306, user='root', passwd='12345678', db='bank')
             self.cur = self.conn.cursor(pymysql.cursors.DictCursor)
 
         except  Exception:
